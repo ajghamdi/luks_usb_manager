@@ -104,7 +104,9 @@ Run command:
 sudo ./luks-usb-manager
 ```
 
-### Example Output  
+### Example Output
+
+- If LUKS device is locked:
 ```
 Partition is locked. Unlocking now...
 Enter LUKS passphrase: ********
@@ -112,6 +114,7 @@ USB unlocked and mounted at /mnt/encrypted_usb
 Press ENTER to exit...
 ```
 
+- If LUKS device is unlocked:
 ```
 Partition is already unlocked. Locking it now...
 Flushing write buffers...
@@ -121,18 +124,18 @@ Press ENTER to exit...
 
 ---
 
-## License  
-This project is licensed under the **MIT License** – feel free to use, modify, and contribute.  
+## License
+This project is licensed under the **MIT License** – feel free to use, modify, and contribute.
 
 ---
 
-## Contributions  
-Pull requests are welcome. If you find any bugs or have feature suggestions, feel free to open an **issue**.  
+## Contributions
+Pull requests are welcome. If you find any bugs or have feature suggestions, feel free to open an **issue**.
 
 ---
 
-## Author  
-`Ahmed J Alghamdi / ajghamdi`  
+## Author
+`Ahmed J Alghamdi / ajghamdi`
 [luks_usb_manager on GitHub](https://github.com/ajghamdi/luks_usb_manager)
 
 ---
