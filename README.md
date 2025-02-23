@@ -139,9 +139,9 @@ Pull requests are welcome. If you find any bugs or have feature suggestions, fee
 
 ### Tests
 Tested on:
-OS: `Arch Linux 6.13.4-arch1-1 x86_64`
-GCC version: `14.2.1 20250207`
-systemd-libs version: `257.3-1`
-cryptsetup version: `2.7.5-2`
+- OS: `Arch Linux 6.13.4-arch1-1 x86_64`
+- GCC version: `14.2.1 20250207`
+- systemd-libs version: `257.3-1`
+- cryptsetup version: `2.7.5-2`
 
 ---
