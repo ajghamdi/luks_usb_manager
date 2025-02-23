@@ -76,7 +76,7 @@ This an attempt to write a simple and secure **C program** to automate some oper
 Manual compilation is needed using `gcc`:
 
 ```bash
-gcc luks-usb-manager.c -o luks-usb-manager -lcryptsetup -ludev
+gcc luks_usb_manager.c -o luks-usb-manager -lcryptsetup -ludev
 ```
 
 To run the program, use `sudo`, as LUKS operations require root permissions:
